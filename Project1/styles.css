@@ -1,0 +1,43 @@
+body {
+    background-color: #343a40; /* Dark background for the whole page */
+    font-family: Arial, sans-serif;
+    color: #020000; /* White text color for readability */
+}
+
+.card {
+    background-color: #a3cbf3; /* Darker background for the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Soft shadow effect */
+}
+
+.card-body {
+    padding: 2rem; /* More padding for the card body */
+}
+
+h2 {
+    color: #000000; /* White header text */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    border-color: #0056b3;
+}
+
+.form-control {
+    background-color: #6c757d; /* Darker input fields */
+    color: #050000; /* White text for input fields */
+    border: 1px solid #042f5a; /* Border color */
+}
+
+.form-control::placeholder {
+    color: #000000; /* Lighter placeholder text */
+}
+
+.form-check-label {
+    color: #0d5fbd; /* White text for labels */
+}
